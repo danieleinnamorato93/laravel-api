@@ -50,6 +50,7 @@ class ProjectController extends Controller
             "url.required"=>"L' URL è  necessario",
             "type_id"=> "Il tipo è obbligatorio",
             "technologies" => "Seleziona almeno una tecnologia",
+            "image"=>"Inserisci un'immagine"
         ]);
         
         if($request->hasFile("image")){
@@ -103,6 +104,8 @@ class ProjectController extends Controller
             "url.required"=>"L' URL è  necessario",
             "type_id"=> "Il tipo è obbligatorio",
             "technologies" => "Seleziona almeno una tecnologia",
+             "technologies" => "Seleziona almeno una tecnologia",
+            "image"=>"Inserisci un'immagine"
         ]);
 
         
